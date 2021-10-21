@@ -1,5 +1,5 @@
 .sidepanel {
-  position: absolute;
+  position: fixed;
   top: 230px;
   left: 50px;
   display: flex;
@@ -12,14 +12,14 @@
   &__divider {
     width: 2px;
     height: 50px;
-    background-color: #f8f5f5;
+    background-color: #e98808;
   }
 
   &__text {
     width: 25px;
     height: 150px;
     font-weight: bold;
-    color: #ffffff;
+    color: #e98808;
     span { 
       display: block;
       transform: rotate(-90deg) translate(-30%, -260%);
